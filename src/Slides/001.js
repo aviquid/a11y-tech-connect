@@ -29,11 +29,11 @@ const slide = () => (
     <Container>
       <Icon className='fa fa-github' /> <a href='https://www.github.com/aviquid'>@aviquid</a>
       <Spacer />
-      <Icon className='fa fa-github' /> <a href='https://www.github.com/arka'>@arka</a>
+      <Icon className='fa fa-github' /> <a href='https://www.github.com/arkadyuti'>@arkadyuti</a>
     </Container>
   </TitleSlide>
 );
 
-slide.title = 'Breaking the eyes';
+slide.title = 'Breaking the eyes!';
 
 export default slide;
