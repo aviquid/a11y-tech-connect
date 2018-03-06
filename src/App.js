@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Presentation, Slide, DropDownNav } from 'react-presents'
+import { Presentation, Slide } from 'react-presents'
 
 // Load all slides in the Slides folder
 const slides = require.context('./Slides/', false, /\.js$/)
