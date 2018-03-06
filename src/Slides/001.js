@@ -34,6 +34,6 @@ const slide = () => (
   </TitleSlide>
 );
 
-slide.title = 'Breaking the eyes!';
+slide.title = 'Building web pages, which can be accessed with your eyes closed!';
 
 export default slide;

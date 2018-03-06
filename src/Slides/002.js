@@ -10,17 +10,19 @@ const slide = () => (
   <ContentSlide>
     <Container>
         <h1>{slide.title}</h1>
-        <Step index={1}>
-            <ul>
+        <ul>
+            <Step index={1}>
                 <li>Keyboard only users navigate the page in DOM order.</li>
-                <li>So the dom is the user's mental image of the document structure.</li>
-            </ul>
-        </Step>
-        <Step index={2}>
-            <ul>
-                <li>No left or right, only up and down the DOM.</li>
-            </ul>
-        </Step>
+            </Step>
+            <Step index={2}>
+                <li>
+                    So the DOM is the user's mental image of the document structure.
+                    <ul>
+                        <li>No left or right, only up and down the DOM</li>
+                    </ul>
+                </li>
+            </Step>
+        </ul>
     </Container>
   </ContentSlide>
 );
