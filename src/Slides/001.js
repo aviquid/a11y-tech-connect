@@ -1,6 +1,7 @@
 import React from 'react';
 import { TitleSlide } from 'react-presents';
 import styled from 'styled-components';
+import TitleImage from '../images/title.jpg';
 
 const Container = styled.p`
   display: flex;
@@ -20,9 +21,16 @@ const Icon = styled.i`
   color: #777872;
 `;
 
+const Image = styled.img`
+  width: 350px;
+  height: 250px;
+  margin-bottom: 20px;
+`;
+
 const slide = () => (
   <TitleSlide>
     <h1>{slide.title}</h1>
+    <Image src={TitleImage} alt="Inaccessible Stair Case" />
     <h2>
       <a href='https://www.github.com/aviquid/a11y-tech-connect'>github.com/aviquid/a11y-tech-connect</a>
     </h2>
