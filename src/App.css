@@ -59,6 +59,7 @@ input:checked + .colorList-dot {
   border: 3px solid #d7d1da;
 }
 .overlay-container {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -66,6 +67,9 @@ input:checked + .colorList-dot {
   bottom: 0;
   z-index: 1001;
   background-color: rgba(116,118,118,.9);
+}
+.overlay-container.show {
+  display: block;
 }
 .overlay-modal {
   position: absolute;
@@ -134,4 +138,8 @@ input:checked + .colorList-dot {
   font-size: 18px;
   margin-right: 20px;
   margin-top: 30px;
+}
+.open-modal-button {
+  background-color: #d6a290;
+  width: 300px;
 }
