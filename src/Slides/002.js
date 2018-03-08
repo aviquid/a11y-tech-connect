@@ -1,32 +1,33 @@
 import React from 'react';
 import { ContentSlide, Step } from 'react-presents';
 import styled from 'styled-components';
+import TitleImage from '../images/train.jpg';
 
 const Container = styled.article`
   display: flex;
   flex-direction: column;
 `;
+const Image = styled.img`
+  width: 600px;
+  height: 500px;
+  margin-bottom: 20px;
+`;
 const slide = () => (
   <ContentSlide>
     <Container>
-        <h1>{slide.title}</h1>
-        <ul>
-            <Step index={1}>
-                <li>Keyboard only users navigate the page in DOM order.</li>
-            </Step>
-            <Step index={2}>
-                <li>
-                    So the DOM is the user's mental image of the document structure.
-                    <ul>
-                        <li>No left or right, only up and down the DOM</li>
-                    </ul>
-                </li>
-            </Step>
-        </ul>
+        <Step index={1}>
+          <h1>{slide.title}</h1>
+        </Step>
+        <Step index={2}>
+            <h2>Accessibility in Web development means enabling as many people as possible to use the Web, even when those people's abilities are limited in some way</h2>
+        </Step>
+        <Step index={3}>
+          <Image src={TitleImage} alt=""/>
+        </Step>
     </Container>
   </ContentSlide>
 );
 
-slide.title = 'Breaking the eyes!';
+slide.title = 'What is accessibility?';
 
 export default slide;

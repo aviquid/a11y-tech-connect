@@ -18,18 +18,14 @@ const slide = () => (
         <h1>{slide.title}</h1>
         <ul>
             <Step index={1}>
-            <li>
-                Make sure parts of controls are grouped together in the DOM.
-                <ul>
-                    <li>
-                        The drop-down menu button and the drop-down menu itself.
-                    </li>
-                </ul>
-            </li>
+                <li>Keyboard only users navigate the page in DOM order.</li>
             </Step>
             <Step index={2}>
                 <li>
-                    Use CSS for layout, Noooo Tables!
+                    So the DOM is the user's mental image of the document structure.
+                    <ul>
+                        <li>No left or right, only up and down the DOM</li>
+                    </ul>
                 </li>
             </Step>
         </ul>
@@ -44,6 +40,6 @@ const slide = () => (
   </ContentSlide>
 );
 
-slide.title = 'DOM best practices';
+slide.title = 'Breaking the eyes!';
 
 export default slide;
