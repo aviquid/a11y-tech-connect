@@ -4,4 +4,153 @@
 #class {
   left: 40px;
 }
-
+.isKeyboardUser a:focus,.isKeyboardUser button:focus,.isKeyboardUser div:focus,.isKeyboardUser input:focus,.isKeyboardUser li:focus,.isKeyboardUser span:focus,.isKeyboardUser ul:focus {
+  outline: #9633fe dotted 1px;
+  outline-offset: 1px
+}
+a:focus, a:hover, button:focus, button:hover {
+  outline: 0;
+  outline-offset: -2px;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.colorList {
+  padding-bottom: 40px;
+}
+.modal-or-overlay h2 {
+  margin-top: 30px;
+}
+.semantic-tags h2 {
+  margin-top: 30px;
+}
+.textAlign-center {
+  text-align: center;
+}
+.colorList li {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+}
+.colorList-dot {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.colorList-input {
+  position: absolute;
+  top: 17px;
+  left: 13px;
+}
+.colorList-input.hide {
+  z-index: -1;
+}
+.colorList-label {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  display: block;
+  cursor: pointer;
+  max-height: 65px;
+  text-align: center;
+  padding-top: 50px;
+}
+.colorList-label.noText {
+  text-indent: 999px;
+  overflow: hidden;
+}
+input:checked + .colorList-dot {
+  border: 3px solid #d7d1da;
+}
+.overlay-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
+  background-color: rgba(116,118,118,.9);
+}
+.overlay-container.show {
+  display: block;
+}
+.overlay-modal {
+  position: absolute;
+  top: 50%;
+  WebkitOverflowScrolling: touch;
+  text-align: left;
+  outline: 0;
+  padding: 15px;
+  max-width: 875px;
+  width: 525px;
+  max-height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 40px;
+  right: 40px;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+.overlay-modal .overlay-wrapper {
+  padding: 18px 19px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+}
+.overlay-modal .heading {
+  min-height: 100px;
+  width: 81%;
+  font-family: NHaasGroteskDSStd-75Bd;
+  font-size: 25px;
+  line-height: .96;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+.overlay-modal .sub-heading {
+  border-top: 1px solid #979797;
+}
+.overlay-modal .sub-heading p {
+  min-height: 138px;
+  font-family: NHaasGroteskDSStd-55Rg;
+  font-size: 12px;
+  line-height: 1.2;
+  margin: 21px 0 0;
+  padding: 0;
+  color: #000;
+}
+.overlay-modal button.modal-close {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  background-color: transparent;
+}
+.isKeyboardUser .overlay-modal button.modal-close:focus {
+  outline: #000 dotted 1px;
+  outline-offset: 1px;
+}
+.sampleInput {
+  border: 1px solid #c3bfbf;
+  margin-top: 30px;
+}
+.sample-input-label {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.open-modal-button {
+  background-color: #d6a290;
+  width: 300px;
+  margin: 0 auto;
+}
