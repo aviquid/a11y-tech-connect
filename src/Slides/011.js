@@ -30,7 +30,7 @@ class slide extends React.Component {
   render() {
     return (
       <ContentSlide>
-        <Container>
+        <Container className="textAlign-center modal-or-overlay">
           <h1>{slide.title}</h1>
           <Step index={1}>
             <h2>Heading</h2>

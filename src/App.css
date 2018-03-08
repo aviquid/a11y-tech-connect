@@ -21,6 +21,15 @@ ul {
 ul.colorList {
   padding-bottom: 40px;
 }
+.modal-or-overlay h2 {
+  margin-top: 30px;
+}
+.semantic-tags h2 {
+  margin-top: 30px;
+}
+.textAlign-center {
+  text-align: center;
+}
 .colorList li {
   position: relative;
   display: inline-block;
@@ -75,6 +84,7 @@ input:checked + .colorList-dot {
   position: absolute;
   top: 50%;
   WebkitOverflowScrolling: touch;
+  text-align: left;
   outline: 0;
   padding: 15px;
   max-width: 875px;
@@ -142,4 +152,5 @@ input:checked + .colorList-dot {
 .open-modal-button {
   background-color: #d6a290;
   width: 300px;
+  margin: 0 auto;
 }

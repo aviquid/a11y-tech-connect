@@ -40,19 +40,19 @@ const colorSwatches2 = {
 }
 const slide = () => (
   <ContentSlide>
-    <Container>
+    <Container className="textAlign-center semantic-tags">
       <h1>{slide.title}</h1>
       <Step index={1}>
-        <h2>Heading</h2>
+        <h2>Use the tag for its rightfully purpose</h2>
       </Step>
       <Step index={2}>
         <ul className="colorList">
           {colorSwatches.listElement.map((value, index) => {
             return (
               <li key={index}>
-                <input type="radio" name="colors" value={value.value} id={colorSwatches.label+index} className="colorList-input" />
+                <input type="radio" name="colors" value={value.value} id={colorSwatches.label + index} className="colorList-input" />
                 <div className="colorList-dot" style={{ "backgroundColor": value.bgColor }}></div>
-                <label htmlFor={colorSwatches.label+index} className="colorList-label">{value.value}</label>
+                <label htmlFor={colorSwatches.label + index} className="colorList-label">{value.value}</label>
               </li>
             )
           })}
@@ -66,9 +66,9 @@ const slide = () => (
           {colorSwatches2.listElement.map((value, index) => {
             return (
               <li key={index}>
-                <input type="radio" name="colors" value={value.value} id={colorSwatches2.label+index} className="colorList-input hide" />
+                <input type="radio" name="colors" value={value.value} id={colorSwatches2.label + index} className="colorList-input hide" />
                 <div className="colorList-dot" style={{ "backgroundColor": value.bgColor }}></div>
-                <label htmlFor={colorSwatches2.label+index} className="colorList-label noText">{value.value}</label>
+                <label htmlFor={colorSwatches2.label + index} className="colorList-label noText">{value.value}</label>
               </li>
             )
           })}
