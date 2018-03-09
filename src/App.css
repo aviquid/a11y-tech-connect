@@ -154,3 +154,24 @@ input:checked + .colorList-dot {
   width: 300px;
   margin: 0 auto;
 }
+.sub-heading-benefits {
+  width: 25%;
+  margin: 0px auto;
+  text-align: left;
+  position: relative;
+}
+.sub-heading-benefits>img {
+  position: absolute;
+}
+.sub-heading-benefits li {
+  margin-left: 35px;
+  font-size: 18px;
+}
+.meme-why-img {
+  position: relative;
+}
+.meme-why-img img {
+  position: absolute;
+  right: -222px;
+  top: -136px;
+}
