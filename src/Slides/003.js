@@ -30,14 +30,14 @@ const slide = () => (
             </Step>
         </ul>
         <Step index={3}>
-            <NoSenseArticle>
-                Our
-                <NoSenseSpan id="awesome" tabIndex="0">awesome</NoSenseSpan>
-                <NoSenseSpan id="XT" tabIndex="0">XT</NoSenseSpan>
-                <NoSenseSpan id="team" tabIndex="0">team</NoSenseSpan>
-                <NoSenseSpan id="is" tabIndex="0">is</NoSenseSpan>
-                <NoSenseSpan id="now" tabIndex="0">now</NoSenseSpan>
-                <NoSenseSpan id="freaking" tabIndex="0">freaking</NoSenseSpan>
+            <NoSenseArticle tabIndex="0">
+                <NoSenseSpan >Our </NoSenseSpan>
+                <NoSenseSpan id="awesome" > awesome. </NoSenseSpan>
+                <NoSenseSpan id="XT" > XT </NoSenseSpan>
+                <NoSenseSpan id="team" > team </NoSenseSpan>
+                <NoSenseSpan id="is" > is </NoSenseSpan>
+                <NoSenseSpan id="now" > now </NoSenseSpan>
+                <NoSenseSpan id="freaking" > freaking       </NoSenseSpan>
             </NoSenseArticle>
         </Step>
     </Container>
