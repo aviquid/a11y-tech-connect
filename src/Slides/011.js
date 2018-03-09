@@ -14,7 +14,7 @@ const slide = () => (
         <Step index={1}>
           <h2>1. Good for SEO </h2>
           <ul>
-            <li>Use only one h1 tag in a entire page</li>
+            <li>Use only one h1 tag in an entire page</li>
           </ul>
         </Step>
         <Step index={2}>
@@ -29,7 +29,7 @@ const slide = () => (
             <li>NVDA </li>
             <li>Apple VoiceOver </li>
             <li>WebAnywhere  </li>
-            <li><strong>Chromevox </strong></li>
+            <li><strong>ChromeVox </strong></li>
           </ul>
         </Step>
       </div>

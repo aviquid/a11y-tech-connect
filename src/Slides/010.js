@@ -26,8 +26,8 @@ const slide = () => (
           <h2>2. Proper semantic</h2>
           <ul className="meme-why-img">
             <li>div div div all the way</li>
-            <li>USe aria for exta info</li>
-            <li><img src={TitleImage} alt="asdsd" /></li>
+            <li>USe aria for extra info</li>
+            <li><img src={TitleImage} alt="" /></li>
           </ul>
         </Step>
         <Step index={3}>

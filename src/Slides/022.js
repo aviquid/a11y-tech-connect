@@ -11,6 +11,7 @@ const Container = styled.article`
 const slide = () => (
   <ContentSlide>
     <Container className="container-avi width-25">
+        <h1>Improving Site Accessibility</h1>
         <ol>
             <li>
                 External Audits

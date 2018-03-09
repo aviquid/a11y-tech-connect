@@ -44,7 +44,7 @@ const slide = () => (
     <Container className="textAlign-center semantic-tags">
       <h1>{slide.title}</h1>
       <Step index={1}>
-        <h2>Use the tag for its rightfully purpose</h2>
+        <h2>Use the tag for its rightful purpose.</h2>
       </Step>
       <Step index={2}>
         <ul className="colorList">
@@ -60,7 +60,7 @@ const slide = () => (
         </ul>
       </Step>
       <Step index={3}>
-        <h2>Ensure meaning is not conveyed by color alone</h2>
+        <h2>Ensure meaning is not conveyed by color alone.</h2>
       </Step>
       <Step index={3}>
         <ul className="colorList">
@@ -79,6 +79,6 @@ const slide = () => (
   </ContentSlide>
 );
 
-slide.title = 'Using semantic tags';
+slide.title = 'Molding HTML tags!';
 
 export default slide;
