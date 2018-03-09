@@ -10,9 +10,12 @@ const Container = styled.article`
 `;
 const slide = () => (
   <ContentSlide>
-    <Container>
-        <h1 dangerouslySetInnerHTML={{__html: slide.title}} />
-        <p>-Laura Carvajal</p>
+    <Container className="container-avi laura" >
+        <h1>
+          Beyond <strong>not denying</strong> access, it's ensuring that access is <strong>fair</strong> for everyone!
+          <span>-Laura Carvajal</span>
+        </h1>
+        
     </Container>
   </ContentSlide>
 );

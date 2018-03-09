@@ -16,7 +16,7 @@ const Image = styled.img`
 
 const slide = () => (
   <ContentSlide>
-    <Container>
+    <Container className="container-avi width-25">
         <ol>
             <li>
                 External Audits

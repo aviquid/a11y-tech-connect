@@ -1,31 +1,23 @@
+
 import React from 'react';
 import { ContentSlide, Step } from 'react-presents';
 import styled from 'styled-components';
-import money from '../images/money.jpg';
 
 const Container = styled.article`
   display: flex;
   flex-direction: column;
 `;
-
 const slide = () => (
   <ContentSlide>
     <Container className="container-avi width-25">
-        <ol>
-            <li>
-                External Audits
-            </li>
-            <li>
-                Customer Research
-            </li>
-        </ol>
-        <Step index={1}>
-            <img className="money" src={money} alt=""/>
-        </Step>
-       
+      <h1>{slide.title}</h1>
+      <Step index={1}>
+        <a className="bookmyshow-a" href="https://in.bookmyshow.com/" target="_blank" >Let's book a movie ticket</a>
+      </Step>
     </Container>
   </ContentSlide>
 );
 
+slide.title = 'Manage focus efficiently.';
 
 export default slide;

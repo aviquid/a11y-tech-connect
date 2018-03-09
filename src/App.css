@@ -33,6 +33,9 @@ ul {
 ul.colorList {
   padding-bottom: 40px;
 }
+.modal-or-overlay,.semantic-tags {
+  margin-top: 70px;
+}
 .modal-or-overlay h2 {
   margin-top: 30px;
 }
@@ -186,4 +189,42 @@ input:checked + .colorList-dot {
   position: absolute;
   right: -222px;
   top: -136px;
+}
+.container-avi {
+  position: relative;
+  width: 60%;
+  margin: 70px auto;
+}
+.container-avi.laura h1 {
+  position: relative;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+.container-avi.laura span {
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+.container-avi.width-25 {
+  width: 25%;
+}
+.container-avi ol {
+  padding-left: 20px;
+}
+body .container-avi h1 {
+  padding: 0;
+}
+.aria-live {
+  margin-top: 50px;
+}
+.bookmyshow-a {
+  /* margin: 0 auto; */
+  text-align: left;
+}
+.container-avi img.money {
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: -129px;
 }

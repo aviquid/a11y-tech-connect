@@ -9,7 +9,7 @@ const Container = styled.article`
 
 const slide = () => (
   <ContentSlide>
-    <Container>
+    <Container className="container-avi width-25">
         <h2>"It's the right thing to do." => Never gets you a budget.</h2>
         <Step index={1}>
             <h2><strong>"Avoiding Litigation"</strong> is your only weapon ¯\_(ツ)_/¯ *wink wink*</h2>

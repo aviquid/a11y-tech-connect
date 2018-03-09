@@ -9,7 +9,7 @@ const Container = styled.article`
 
 const slide = () => (
   <ContentSlide>
-    <Container>
+    <Container className="container-avi width-25">
         <h1>{slide.title}</h1>
         <ol>
             <Step index={1}>

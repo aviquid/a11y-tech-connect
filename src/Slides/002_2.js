@@ -8,7 +8,7 @@ const Container = styled.article`
 `;
 const slide = () => (
   <ContentSlide>
-    <Container>
+    <Container className="container-avi width-25">
         <ol>
             <Step index={1}>
                 <li>Blind users</li>

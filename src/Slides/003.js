@@ -14,7 +14,7 @@ const NoSenseSpan = styled.span`
 `;
 const slide = () => (
   <ContentSlide>
-    <Container>
+    <Container className="container-avi width-25">
         <h1>{slide.title}</h1>
         <ul>
             <Step index={1}>

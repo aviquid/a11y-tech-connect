@@ -14,7 +14,7 @@ const Image = styled.img`
 `;
 const slide = () => (
   <ContentSlide>
-    <Container>
+    <Container className="container-avi">
         <Step index={1}>
           <h1>{slide.title}</h1>
         </Step>
