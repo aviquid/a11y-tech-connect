@@ -1,5 +1,7 @@
 # Building web pages which can be accessed with your eyes closed! - a11y tech connect presentation.
 
+## Used react-presents to build a web presentation.
+
 For the project to build, **these files must exist with exact filenames**:
 
 * `public/index.html` is the page template;
