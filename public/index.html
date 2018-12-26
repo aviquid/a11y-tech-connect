@@ -45,7 +45,7 @@
     
     var keycode = e.which;
     const isKeyboardUser = [9, 13, 32, 37, 38, 39, 40].indexOf(keycode) !== -1;
-    if (isKeyboardUser && body.className.indexOf("isKeyboardUser") === -1) {
+    if (isKeyboardUser) {
       body.className += " isKeyboardUser";
       body.removeEventListener("keydown", checkKeyboardUser);
     }
