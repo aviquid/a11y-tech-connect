@@ -40,15 +40,17 @@
     -->
 </body>
 <script>
+  var body = document.body;
   function checkKeyboardUser(e) {
     
     var keycode = e.which;
     const isKeyboardUser = [9, 13, 32, 37, 38, 39, 40].indexOf(keycode) !== -1;
-    if (isKeyboardUser && document.body.className.indexOf("isKeyboardUser") === -1) {
-      document.body.className += " isKeyboardUser";
+    if (isKeyboardUser && body.className.indexOf("isKeyboardUser") === -1) {
+      body.className += " isKeyboardUser";
+      body.removeEventListener("keydown", checkKeyboardUser);
     }
   }
-  document.body.addEventListener("keydown", checkKeyboardUser)
+  body.addEventListener("keydown", checkKeyboardUser)
 </script>
 
 </html>
