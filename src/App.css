@@ -226,5 +226,5 @@ body .container-avi h1 {
   width: auto;
   height: auto;
   position: absolute;
-  right: -129px;
+  left: 100%;
 }

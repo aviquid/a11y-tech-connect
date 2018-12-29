@@ -8,9 +8,12 @@ const Container = styled.article`
   flex-direction: column;
 `;
 const Image = styled.img`
-  width: 600px;
-  height: 500px;
-  margin-bottom: 20px;
+  position: absolute;
+  top: 100%;
+  width: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
 `;
 const slide = () => (
   <ContentSlide>
