@@ -3,7 +3,6 @@ import { ContentSlide, Step } from 'react-presents';
 import styled from 'styled-components';
 
 import TitleImage from '../images/why.jpg';
-import mouse from '../images/mouse-stick.jpg';
 import googleSearch from '../images/google-search.PNG';
 
 const Container = styled.article`

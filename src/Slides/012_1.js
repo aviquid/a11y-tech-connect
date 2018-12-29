@@ -12,7 +12,9 @@ const slide = () => (
     <Container className="container-avi width-25">
       <h1>{slide.title}</h1>
       <Step index={1}>
-        <a className="bookmyshow-a" href="https://in.bookmyshow.com/" target="_blank" >Let's book a movie ticket</a>
+        <a className="bookmyshow-a" 
+        href="https://in.bookmyshow.com/" 
+        target="_blank" rel="noopener noreferrer">Let's book a movie ticket</a>
       </Step>
     </Container>
   </ContentSlide>

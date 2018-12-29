@@ -67,7 +67,8 @@ class slide extends React.Component {
                       </li>
                       <li>
                         <span className="sample-input-label">Sample Anchor</span>
-                        <a href="https://webaim.org/" target="_blank">Click Here</a>
+                        <a href="https://webaim.org/" 
+                        target="_blank" rel="noopener noreferrer" >Click Here</a>
                       </li>
                     </ul>
                     <p></p>
