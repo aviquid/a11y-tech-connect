@@ -1,11 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Breaking the eyes",
+  "name": "Building Web pages which can be accessed with your eyes closed.",
+  "description": "A Web presentation on Accessibility, where Avinash and Arkadyuti walk you through some do's and dont's when building accessible web apps with HTML5 and JavaScript.",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     }
   ],
   "start_url": "./index.html",
