@@ -1,21 +1,3 @@
-#awesome {
-  left: 263px;
-}
-#XT {
-  left: 42px;
-}
-#team {
-  left: 70px;
-}
-#is {
-  left: 121px;
-}
-#now {
-  left: 140px;
-}
-#freaking {
-  left: 182px;
-}
 .isKeyboardUser a:focus,.isKeyboardUser button:focus,.isKeyboardUser div:focus,.isKeyboardUser input:focus,.isKeyboardUser li:focus,.isKeyboardUser span:focus,.isKeyboardUser ul:focus {
   outline: #9633fe dotted 1px;
   outline-offset: 1px

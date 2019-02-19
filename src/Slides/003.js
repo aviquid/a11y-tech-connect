@@ -7,10 +7,12 @@ const Container = styled.article`
   flex-direction: column;
 `;
 const NoSenseArticle = styled.article`
-  position: relative;
+    display: flex;
+    flex-flow: row nowrap;
 `;
 const NoSenseSpan = styled.span`
-  position: absolute;
+  padding-right: 5px;
+  order: ${props => props.order};
 `;
 const slide = () => (
   <ContentSlide>
@@ -31,13 +33,13 @@ const slide = () => (
         </ul>
         <Step index={3}>
             <NoSenseArticle tabIndex="0">
-                <NoSenseSpan >Our </NoSenseSpan>
-                <NoSenseSpan id="awesome" > awesome. </NoSenseSpan>
-                <NoSenseSpan id="XT" > XT </NoSenseSpan>
-                <NoSenseSpan id="team" > team </NoSenseSpan>
-                <NoSenseSpan id="is" > is </NoSenseSpan>
-                <NoSenseSpan id="now" > now </NoSenseSpan>
-                <NoSenseSpan id="freaking" > freaking       </NoSenseSpan>
+                <NoSenseSpan order="1" >Our</NoSenseSpan>
+                <NoSenseSpan order="7" >awesome.</NoSenseSpan>
+                <NoSenseSpan order="2" >XT</NoSenseSpan>
+                <NoSenseSpan order="3" >team</NoSenseSpan>
+                <NoSenseSpan order="4" >is</NoSenseSpan>
+                <NoSenseSpan order="5" >now</NoSenseSpan>
+                <NoSenseSpan order="6" >freaking</NoSenseSpan>
             </NoSenseArticle>
         </Step>
     </Container>
